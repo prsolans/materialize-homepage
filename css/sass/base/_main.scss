@@ -6,3 +6,34 @@ html {
 	overflow-y: scroll;
 	min-height: 100%;
 }
+
+body {
+	background-color: #fcfcfc;
+}
+
+blockquote {border-left: 5px solid #37474f !important;}
+
+// header, main, footer {
+// padding-left: 100px;
+// }
+
+// @media only screen and (max-width : 992px) {
+// header, main, footer {
+//   padding-left: 0;
+// }
+// }
+
+nav {height: 100px;}
+
+@media only screen and (max-width: 992px) {
+	.nav-wrapper {
+		float: right;
+	}
+}
+
+li.logo {height: 100px;}
+
+.slider .slides{ background-color: #fcfcfc;}
+
+
+
