@@ -1,5 +1,5 @@
-# Grunt Project
-> Basic project setup with Grunt to standardise and structure projects.
+# MaterializeCSS Bio Homepage 
+> Basic project setup with Grunt to test MaterializeCSS functionality
 
 ### What's included?
 - JShint, concatenate and minify JavaScript

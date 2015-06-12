@@ -407,41 +407,45 @@ table {
 /*--------------------------------------*\
 	Main
 \*--------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\000037}}
 html {
   overflow-y: scroll;
   min-height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000312}}
 body {
   background-color: #fcfcfc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000316}}
 blockquote {
   border-left: 5px solid #37474f !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000328}}
 nav {
   height: 100px;
 }
 
 @media only screen and (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000331}}
   .nav-wrapper {
     float: right;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000336}}
 li.logo {
   height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000339}}
 .slider .slides {
   background-color: #fcfcfc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000341}}
+.slider .indicators .indicator-item.active {
+  background-color: #37474f;
 }
 
 /*--------------------------------------*\

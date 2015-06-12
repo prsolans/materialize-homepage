@@ -2,6 +2,8 @@
 	Main
 \*--------------------------------------*/
 
+$blue-grey: #37474f;
+
 html {
 	overflow-y: scroll;
 	min-height: 100%;
@@ -11,7 +13,7 @@ body {
 	background-color: #fcfcfc;
 }
 
-blockquote {border-left: 5px solid #37474f !important;}
+blockquote {border-left: 5px solid $blue-grey !important;}
 
 // header, main, footer {
 // padding-left: 100px;
@@ -33,7 +35,10 @@ nav {height: 100px;}
 
 li.logo {height: 100px;}
 
-.slider .slides{ background-color: #fcfcfc;}
+.slider {
+	.slides{ background-color: #fcfcfc;}
 
+	.indicators .indicator-item.active { background-color: $blue-grey; }
+}
 
 
