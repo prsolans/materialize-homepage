@@ -15,16 +15,6 @@ body {
 
 blockquote {border-left: 5px solid $blue-grey !important;}
 
-// header, main, footer {
-// padding-left: 100px;
-// }
-
-// @media only screen and (max-width : 992px) {
-// header, main, footer {
-//   padding-left: 0;
-// }
-// }
-
 nav {height: 100px;}
 
 @media only screen and (max-width: 992px) {
@@ -35,8 +25,13 @@ nav {height: 100px;}
 
 li.logo {height: 100px;}
 
+.parallax-container.short {height: 250px;}
+
 .slider {
-	.slides{ background-color: #fcfcfc;}
+	.slides{ background-color: #fcfcfc;
+      .outside-caption { float: right; width: 30%; }
+      li img.caption-right {float: left; width: 65%; }
+    }
 
 	.indicators .indicator-item.active { background-color: $blue-grey; }
 }

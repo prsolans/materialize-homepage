@@ -423,27 +423,42 @@ blockquote {
   border-left: 5px solid #37474f !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000318}}
 nav {
   height: 100px;
 }
 
 @media only screen and (max-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000321}}
   .nav-wrapper {
     float: right;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000326}}
 li.logo {
   height: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000328}}
+.parallax-container.short {
+  height: 250px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000331}}
 .slider .slides {
   background-color: #fcfcfc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000332}}
+.slider .slides .outside-caption {
+  float: right;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000333}}
+.slider .slides li img.caption-right {
+  float: left;
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/prsolans\/Documents\/Projects\/grunt\/css\/sass\/base\/_main\.scss}line{font-family:\0000336}}
 .slider .indicators .indicator-item.active {
   background-color: #37474f;
 }
