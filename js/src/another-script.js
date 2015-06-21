@@ -1,2 +1,4 @@
-// another-script.js for demonstrating file conactenation
-console.log('another-script.js file');
+//var low = require('lowdb');
+//var db = low('db.json');
+//
+//db('posts').push({ title: 'lowdb is awesome'});

@@ -5,11 +5,14 @@
     <title>Paul R. Solans</title>
     <meta name="description" content="">
     <meta name="author" content="Paul R. Solans">
-    <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="css/grunt-project.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <!--<link rel="stylesheet" href="css/grunt-project.css">-->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+
 </head>
 <body>
 <header>
@@ -259,41 +262,15 @@
         </div>
     </div>
 </footer>
-<script src="js/vendor/jquery-1.10.2.min.js"></script>
-<script src="js/vendor/materialize.js"></script>
-<script src="js/grunt-project.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+<script src="dist/bundle.js"></script>
+<script src="dist/index.js"></script>
+<!--<script src="dist/common.js"></script>-->
+
 <script>
-    // Initialize collapse button
-    $(".button-collapse").sideNav();
-    $('.slider').slider({height: 240});
-    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-    //$('.collapsible').collapsible();
-    //
-    $(document).ready(function () {
-        $('.parallax').parallax();
-        $('.datepicker').pickadate({
-            selectMonths: true, // Creates a dropdown to control month
-            selectYears: 15 // Creates a dropdown of 15 years to control year
-        });
 
-        $('#form-submit').on('click', function (e) {
 
-            var first_name = $('#first_name').val();
-            var last_name = $('#last_name').val();
-            var email = $('#email').val();
-            var message = $('#message').val();
-
-            var submission = [first_name, last_name, email, message];
-
-            $.post("ajax/test.html", submission).done(function () {
-                alert('yo');
-            });
-
-            console.log(JSON.stringify(submission));
-
-            e.preventDefault();
-        });
-    });
 
 </script>
 </body>

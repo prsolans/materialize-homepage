@@ -5,11 +5,12 @@
     <title>Paul R. Solans</title>
     <meta name="description" content="">
     <meta name="author" content="Paul R. Solans">
-    <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="css/grunt-project.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
 </head>
 <body>
 <header>
@@ -57,28 +58,34 @@
                                     <div class="col sm12 m4">
                                         <div>
                                             <h3>James Hardie</h3>
-                                            <h5 class="light grey-text">A new consumer-focused website was required to meet the needs of a broad target audience and achieve specific lead conversion goals.</h5>
+                                            <h5 class="light grey-text">A new consumer-focused website was required to
+                                                meet the needs of a broad target audience and achieve specific lead
+                                                conversion goals.</h5>
                                             <a href="http://www.jameshardie.com/" target="_blank">See it in action</a>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <img src="http://mergeworld.com/content/images/pics/projects/tenderbelly/tenderbelly-hero.jpg" class="caption-right">
+                                <img src="http://mergeworld.com/content/images/pics/projects/tenderbelly/tenderbelly-hero.jpg"
+                                     class="caption-right">
                                 <!-- random image -->
                                 <div class="outside-caption">
                                     <h3>Tender Belly</h3>
-                                    <h5 class="light grey-text">Tender Belly, a premium pork producer out of Denver, Colorado, makes some of the finest pork products available on the market.</h5>
+                                    <h5 class="light grey-text">Tender Belly, a premium pork producer out of Denver,
+                                        Colorado, makes some of the finest pork products available on the market.</h5>
                                     <a href="http://www.tenderbelly.com/" target="_blank">Take a look</a>
 
                                 </div>
                             </li>
                             <li>
-                                <img src="http://mergeworld.com/content/images/pics/projects/chicagometallic/chicagometallic-hero.jpg" class="caption-right">
+                                <img src="http://mergeworld.com/content/images/pics/projects/chicagometallic/chicagometallic-hero.jpg"
+                                     class="caption-right">
                                 <!-- random image -->
                                 <div class="outside-caption">
                                     <h3>Chicago Metallic</h3>
-                                    <h5 class="light grey-text">Using the Magento eCommerce platform and WordPress templates, Chicago Metallic can easily maintain and update their content.</h5>
+                                    <h5 class="light grey-text">Using the Magento eCommerce platform and WordPress
+                                        templates, Chicago Metallic can easily maintain and update their content.</h5>
                                     <a href="http://www.chicagometallicbakeware.com" target="_blank">Check it out</a>
                                 </div>
                             </li>
@@ -152,20 +159,23 @@
                     <div class="slider">
                         <ul class="slides">
                             <li>
-                                <blockquote class="light-green lighten-4" style="padding-top:15px; padding-bottom: 30px;">
+                                <blockquote class="light-green lighten-4"
+                                            style="padding-top:15px; padding-bottom: 30px;">
                                     <h3>Fun Facts</h3>
                                     I've worked with people on six continents (If you are seeing this from Antarctica,
                                     call me!)
                                 </blockquote>
                             </li>
                             <li>
-                                <blockquote class="light-green lighten-4" style="padding-top:15px; padding-bottom: 30px;">
+                                <blockquote class="light-green lighten-4"
+                                            style="padding-top:15px; padding-bottom: 30px;">
                                     <h3>Fun Facts</h3>
                                     I'm growing Shishito peppers in my backyard.
                                 </blockquote>
                             </li>
                             <li>
-                                <blockquote class="light-green lighten-4" style="padding-top:15px; padding-bottom: 30px;">
+                                <blockquote class="light-green lighten-4"
+                                            style="padding-top:15px; padding-bottom: 30px;">
                                     <h3>Fun Facts</h3>
                                     I once played in a band called Crazy Scorcese.
                                 </blockquote>
@@ -178,7 +188,8 @@
         </div>
         <div class="divider"></div>
 </main>
-<footer class="page-footer light-green lighten-3">
+
+<footer class="page-footer blue-grey lighten-3">
     <div class="footer-copyright">
         <div class="container">
             © 2015 Paul R. Solans
@@ -186,37 +197,11 @@
         </div>
     </div>
 </footer>
-<script src="js/vendor/jquery-1.10.2.min.js"></script>
-<script src="js/vendor/materialize.js"></script>
-<script src="js/grunt-project.min.js"></script>
-<script>
-    // Initialize collapse button
-    $(".button-collapse").sideNav();
-    $('.slider').slider({height: 240});
-    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-    //$('.collapsible').collapsible();
-    //
-    $(document).ready(function () {
-        $('.parallax').parallax();
-        $('#form-submit').on('click', function (e) {
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
 
-            var first_name = $('#first_name').val();
-            var last_name = $('#last_name').val();
-            var email = $('#email').val();
-            var message = $('#message').val();
+<script src="dist/bundle.js"></script>
+<script src="dist/index.js"></script>
 
-            var submission = [first_name, last_name, email, message];
-
-            $.post("ajax/test.html", submission).done(function () {
-                alert('yo');
-            });
-
-            console.log(JSON.stringify(submission));
-
-            e.preventDefault();
-        });
-    });
-
-</script>
 </body>
 </html>
