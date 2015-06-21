@@ -286,7 +286,7 @@
         });
 
         $('.external-link').on('click', function() {
-            ga('send', 'event', 'external-link', 'click', $(this).data('extlink'));
+            ga('send', 'event', { eventCategory: 'external-link', eventAction: 'click', eventLabel: $(this).data('extlink'));
         });
 
         $('#form-submit').on('click', function (e) {
