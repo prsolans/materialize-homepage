@@ -78,9 +78,9 @@
                     <p>You can usually find me in Nashville, TN, and online in the following places:
                     <ul>
                         <li>
-                            <a href="http://www.github.com/prsolans" target="_blank">Github</a></li>
-                        <li><a href="http://www.twitter.com/prsweb" target="_blank">Twitter</a></li>
-                        <li><a href="http://www.instagram.com/prsolans" target="_blank">Instagram</a></li>
+                            <a href="http://www.github.com/prsolans" target="_blank" class="external-link" prs-name="github">Github</a></li>
+                        <li><a href="http://www.twitter.com/prsweb" target="_blank" class="external-link" prs-name="twitter">Twitter</a></li>
+                        <li><a href="http://www.instagram.com/prsolans" target="_blank" class="external-link" prs-name="instagram">Instagram</a></li>
                     </ul>
                     <div class="slider">
                         <ul class="slides">
@@ -302,6 +302,10 @@
 
             e.preventDefault();
         });
+    });
+
+    $(".external-link").on('click', function() {
+       ga('send', 'event', 'external-link', 'click', this.attr('prs-name'));
     });
 
 </script>
