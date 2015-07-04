@@ -1,5 +1,5 @@
 # PRSOLANS.COM HOMEPAGE
-This repo contains the content and dev environment setup for prsolans.
+This repo contains the content and dev environment setup for prsolans.com.
 
 ## Technologies
 This site was built using [Materialize][1], and local development, including SASS compiling is faciliatated by [Grunt JS][2].
