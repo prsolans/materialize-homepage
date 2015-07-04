@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Paul R. Solans</title>
+    <meta name="description" content="">
+    <meta name="author" content="Paul R. Solans">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/grunt-project.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div class="navbar-fixed">
+        <nav class="light-green darken-3">
+            <div class="nav-wrapper">
+                <h1 style="display: inline;">Paul R. Solans</h1>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <!--<li><a href="work.html">Work</a></li>-->
+                    <li><a href="experiments.html">Experiments</a></li>
+                    <!--<li><a href="fun.html">Fun</a></li>-->
+                </ul>
+            </div>
+            <ul id="slide-out" class="side-nav">
+                <li><a href="index.html">Home</a></li>
+                <!--<li><a href="work.html">Work</a></li>-->
+                <li><a href="experiments.html">Experiments</a></li>
+                <!--<li><a href="fun.html">Fun</a></li>-->
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="parallax-container short">
+        <div class="parallax"><img
+                src="https://lh3.googleusercontent.com/TNSW4DbU9CPqY9iA0tAzs1Fm-QdijcRx4xoQnnusw7w=w1424-h801-no"></div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Experiments</h2>
+            <p>From time to time I put together projects to test new functionality and tools. See some details below.</p>
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="card light-green lighten-4">
+                        <div class="card-content">
+                            <span class="card-title"><a href="kenticoexam/app">Kentico Certification Exam Preparation Quiz Application</a></span>
+                            <h4>Built using: <a href="https://angularjs.org/" target="_blank">Angularjs</a>, <a href="https://material.angularjs.org/" target="_blank">Angular Material</a></h4>
+                            <p>By taking questions from the official Kentico 8 Certified Developer Exam Preparation Guide, I was able to increase my familiarity with Angular.js, build on my understanding of implementing material design, and also provide a (hopefully) useful tool for other people prepping for the Kentico certification exam.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="kenticoexam/app" target="_blank">The app</a>
+                            <a href="http://github.com/prsolans/exam-prep" target="_blank">The code</a>  </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="divider"></div>
+</main>
+<footer class="page-footer blue-grey lighten-3">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015 Paul R. Solans
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/vendor/materialize.js"></script>
+<script src="js/grunt-project.min.js"></script>
+
+<script>
+    // Initialize collapse button
+    $(".button-collapse").sideNav();
+    $('.slider').slider({height: 240});
+
+    $(document).ready(function () {
+        $('.parallax').parallax();
+        $('.external-link').on('click', function () {
+            ga('send', 'event', 'external-link', $(this).data('extlink'));
+        });
+    });
+
+
+</script>
+</body>
+</html>
